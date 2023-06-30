@@ -36,26 +36,5 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <img width="829" alt="image" src="https://github.com/Akeresuleman/azure-network-protocols/assets/137787129/12862081-f78b-40db-b2f9-24f2423a3e19">
   <img width="601" alt="image" src="https://github.com/Akeresuleman/azure-network-protocols/assets/137787129/0488ed76-80e4-435f-8f3d-5fe86d43c866">
 
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Created two virtual machines with the same vnet, one runing windows 10 called VM1 and the other Linux(ubuntu) Called VM2. Connected vm1 using a RD and used it test various network traffic and connectivity between the vms. From vm1 I downloaded and installed wireshack which I will be using to test and observe the various network traffic and protocol. So i used powershell to ping vm2 private ip to make sure there's connectivity between the two vms. next I tested icmpv4 traffic(Continously ping vm2 private IP) betweeen the vms, which was succesful. while the icmpv4 traffic is still going on I then login to the azure portal and deny icmpv4 traffic coming in to vm2 and observe hom the icmp connection becomes unsuccessful and successful when I allow the Imp connection coming to vm2.
+I further tested SSH,DNS traffic from vm1 to vm2
