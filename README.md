@@ -25,14 +25,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
+- Creat two virtual machines with windows 10 and Ubuntu server
+- 
 - Step 3
 - Step 4
 
 <h2>Actions and Observations</h2>
 
 <p>
+  <img width="829" alt="image" src="https://github.com/Akeresuleman/azure-network-protocols/assets/137787129/12862081-f78b-40db-b2f9-24f2423a3e19">
+  <img width="601" alt="image" src="https://github.com/Akeresuleman/azure-network-protocols/assets/137787129/0488ed76-80e4-435f-8f3d-5fe86d43c866">
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
