@@ -26,9 +26,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Creat two virtual machines with windows 10 and Ubuntu server
-- 
-- Step 3
-- Step 4
+- Connect to VM1 using RD
+- Install Wireshack
+- Test and Observe various network traffics using wireshack with NSGs
 
 <h2>Actions and Observations</h2>
 
